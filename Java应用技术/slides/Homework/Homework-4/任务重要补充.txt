@@ -1,0 +1,19 @@
+关于周四布置的作业，我发现有个文件包含了所有文献的元数据，所以对我们爬取文献提供了很大的帮助，所以任务稍稍有些调整，大家可以更容易来构建学术搜索引擎。
+
+我在 ftp, hoemwork-4中有上传了anthology.bib，点名册，任务重要补充 这三个文件，大家可以看看“补充”。
+
+（1）解析anthology.bib文件，得到文献结构化信息，如标题、作者等。
+（2）通过URL，访问文献元数据网页，抓取摘要（若有）等其他信息，以及PDF文件，PDF文件基于URL命名（如，url为：https://www.aclweb.org/anthology/W19-8500，则PDF文件名为W19-8500.pdf
+（3）利用Lucene为各字段建立索引
+（4）建立搜索引擎
+
+由于已经给大家提供了anthology.bib文件，所以所有的同学都需要抓取每个文献的元数据，也就是可以搜索这53745个文献。（The ACL Anthology currently hosts 53745 papers on the study of computational linguistics and natural language processing.)，但不需要爬取所有的PDF文件，基于点名册序号每人下载500篇论文即可。即： （序号-1）*500 +1开始抓取500篇PDF。
+
+49501— 50000
+
+如：
+1号：1-500
+2号：501-1000
+3号：1001-1500
+.....
+

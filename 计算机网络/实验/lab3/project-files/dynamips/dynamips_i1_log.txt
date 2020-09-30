@@ -1,0 +1,10 @@
+Dec 18 09:49:52.765 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 18 09:49:52.767 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58072.
+Dec 18 09:49:53.005 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 18 09:49:53.006 HYPERVISOR: exec_cmd: hypervisor working_dir D:\!大三上\计网\实验\lab3\project-files\dynamips 
+Dec 18 09:49:53.016 GENERAL: working_dir=D:\!大三上\计网\实验\lab3\project-files\dynamips
+Dec 18 09:49:53.017 HYPERVISOR: exec_cmd: frsw create FrameRelayswitch-1 
+Dec 18 09:49:59.818 HYPERVISOR: exec_cmd: frsw delete FrameRelayswitch-1 
+Dec 18 09:49:59.819 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 18 09:50:00.049 HYPERVISOR: Stopped.
+Dec 18 09:50:00.049 GENERAL: reset done.
